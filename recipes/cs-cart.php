@@ -12,6 +12,7 @@ set('writable_dirs', [
 // shared file
 set('shared_files', ['config.local.php']);
 
+// cache clear
 task('cs-cart:cleanup', function () {
     $current  = env('current');
     $cacheDir = $current . '/cscart/var/cache';
