@@ -20,7 +20,7 @@ task('cs-cart:cleanup', function () {
 
 
 // main
-task('deploy', [
+task('cs-cart:deploy', [
     'deploy:prepare',
     'deploy:release',
     'deploy:update_code',
